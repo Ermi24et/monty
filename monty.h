@@ -30,7 +30,6 @@ typedef struct bus_s
 	int lifi;
 } bus_t;
 
-void nothing(void);
 extern bus_t bus;
 
 void ps_push(stack_t **head, unsigned int number);

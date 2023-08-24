@@ -1,14 +1,7 @@
 #define _GNU_SOURCE
 #include "monty.h"
-/**
- * nothing - points to nothing
- * Return: void
- */
-
-void nothing(void)
-{
-	bus_t bus = {NULL, NULL, NULL, 0};
-}
+void nothing(void);
+bus_t bus = {NULL, NULL, NULL, 0};
 /**
  *main - monty code interpreter
  *@ac: number of arguments
