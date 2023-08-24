@@ -1,10 +1,12 @@
 #include "monty.h"
 
 /**
- *
- *
- *
- *
+ *_execute - executes the opcode
+ *@line: line pointer
+ *@stack: head of linked list
+ *@counter: line number counter
+ *@file: pointer to monty file
+ *Return: 0 on success, otherwise 1
  */
 
 int _execute(char *line, stack_t **stack, unsigned int counter, FILE *file)

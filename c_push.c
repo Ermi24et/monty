@@ -1,9 +1,10 @@
 #include "monty.h"
 
 /**
- *
- *
- *
+ *ps_push - adds node to the stack
+ *@head: head of the stack
+ *@counter: line number
+ *Return: void
  */
 
 void ps_push(stack_t **head, unsigned int counter)

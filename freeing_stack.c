@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- *
- *
- *
+ *stack_free - freeing a doubly liked list
+ *@head: head of the stack
+ *Return: void
  */
 
 void stack_free(stack_t *head)
