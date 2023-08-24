@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- *sp_add - adds the top two elements of the stack
+ *ps_add - adds the top two elements of the stack
  *@head: stack head
  *@counter: counts line number
  *Return: void

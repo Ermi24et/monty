@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- *sp_swap - swaps the top two elments of the stack
+ *ps_swap - swaps the top two elments of the stack
  *@head: head of the stack
  *@counter: counts line number
  *Return: void
  */
 
-void sp_swap(stack_t **head, unsigned int counter)
+void ps_swap(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 	int len = 0, aux;

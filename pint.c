@@ -3,7 +3,7 @@
 /**
  * ps_pint - print the top of the stack element
  * @head: the head of the stack
- * @counter: counts the line 
+ * @counter: counts the line
  * Return: void
  */
 
