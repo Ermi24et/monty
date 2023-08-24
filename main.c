@@ -29,7 +29,7 @@ int main(int ac, char *av[])
 	bus.file = file;
 	if (!file)
 	{
-		fprintf(stderr, "ERROR: can't open file %s\n", av[1]);
+		fprintf(stderr, "Error: can't open file %s\n", av[1]);
 		exit(EXIT_FAILURE);
 	}
 	while (read_line > 0)
