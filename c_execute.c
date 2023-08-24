@@ -29,10 +29,12 @@ int _execute(char *line, stack_t **stack, unsigned int counter, FILE *file)
 		i++;
 	}
 	if (op && opst[i].opcode == NULL)
-	{fprintf(stderr, "L%d: unknown instruction %s\n", counter, op);
+	{
+		fprintf(stderr, "L%d: unknown instruction %s\n", counter, op);
 		fclose(file);
 		free(line);
 		stack_free(*stack);
-		exit(EXIT_FAILURE); }
+		exit(EXIT_FAILURE);
+	}
 	return (1);
 }
