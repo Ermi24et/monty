@@ -19,7 +19,10 @@ void ps_pop(stack_t **head, unsigned int counter)
 		stack_free(*head);
 		exit(EXIT_FAILURE);
 	}
-	h = *head;
-	*head = h->next;
-	free(h);
+	else
+	{
+		h = *head;
+		*head = h->next;
+		free(h);
+	}
 }
