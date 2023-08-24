@@ -63,5 +63,8 @@ void s_add_node(stack_t **head, int n);
 void ps_pall(stack_t **head, unsigned int counter);
 int _execute(char *line, stack_t **head, unsigned int counter, FILE *file);
 void stack_free(stack_t *head);
+void ps_swap(stack_t **head, unsigned int counter);
+void ps_add(stack_t **head, unsigned int counter);
+void e_nop(stack_t **head, unsigned int counter);
 
 #endif
