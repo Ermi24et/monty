@@ -68,5 +68,9 @@ void ps_pop(stack_t **head, unsigned int counter);
 void ps_swap(stack_t **head, unsigned int counter);
 void ps_add(stack_t **head, unsigned int counter);
 void e_nop(stack_t **head, unsigned int counter);
+void ps_sub(stack_t **head, unsigned int counter);
+void ps_div(stack_t **head, unsigned int counter);
+void ps_mul(stack_t **head, unsigned int counter);
+void ps_mod(stack_t **head, unsigned int counter);
 
 #endif

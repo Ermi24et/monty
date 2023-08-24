@@ -17,6 +17,10 @@ int _execute(char *line, stack_t **stack, unsigned int counter, FILE *file)
 				{"swap", ps_swap},
 				{"add", ps_add},
 				{"nop", e_nop},
+				{"sub", ps_sub},
+				{"div", ps_div},
+				{"mul", ps_mul},
+				{"mod", ps_mod},
 				{NULL, NULL}
 				};
 	void nothing(void);
