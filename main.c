@@ -11,10 +11,10 @@ bus_t bus = {NULL, NULL, NULL, 0};
 
 int main(int ac, char *av[])
 {
-	char *line = NULL;
+	char *line;
 	FILE *file;
 	size_t len = 0;
-	ssize_t read_line;
+	ssize_t read_line = 1;
 	stack_t *stack = NULL;
 	unsigned int counter = 0;
 
